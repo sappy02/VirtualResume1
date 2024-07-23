@@ -1,0 +1,109 @@
+.resume-container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 30px;
+    background-color: #f9f9f9;
+    border: 3px solid #1a3c6e;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+
+/* Base styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+#main_container {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.box {
+    background-color: #e8e8e8;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+h1, h2, h3 {
+    color: #333;
+}
+
+/* Section 1 styles */
+#section1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#box1 {
+    display: flex;
+    flex: 1 1 45%;
+    align-items: center;
+}
+
+#box1 img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.name_title {
+    display: flex;
+    flex-direction: column;
+}
+
+#box2 {
+    flex: 1 1 45%;
+}
+
+#box3 {
+    flex: 1 1 100%;
+}
+
+#section1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#box1, #box2 {
+    flex: 1 1 45%;
+    margin-bottom: 20px;
+}
+
+#box3 {
+    flex: 1 1 100%;
+}
+
+#employment_education {
+    display: flex;
+    justify-content: space-between;
+}
+
+#employment_education .box {
+    flex: 1;
+    margin-right: 20px;
+}
+
+#employment_education .box:last-child {
+    margin-right: 0;
+}
+
+#skills {
+    display: flex;
+    justify-content: space-between;
+}
+
+#skills .box {
+    flex: 1;
+    margin-right: 20px;
+}
+
+#skills .box:last-child {
+    margin-right: 0;
+}
+}
