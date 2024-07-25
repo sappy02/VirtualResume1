@@ -5,7 +5,7 @@
     background-color: #f9f9f9;
     border: 3px solid #1a3c6e;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
-
+}
 /* Base styles */
 body {
     font-family: Arial, sans-serif;
@@ -27,6 +27,11 @@ body {
     margin-bottom: 20px;
 }
 
+.box1_container {
+    display: flex;
+    justify-content: space-around;
+}
+
 h1, h2, h3 {
     color: #333;
 }
@@ -36,13 +41,10 @@ h1, h2, h3 {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    border: 1px solid blue;
+    padding: 20px;
 }
 
-#box1 {
-    display: flex;
-    flex: 1 1 45%;
-    align-items: center;
-}
 
 
 #box1 img {
@@ -65,20 +67,11 @@ h1, h2, h3 {
     flex: 1 1 100%;
 }
 
-#section1 {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-
-#box1, #box2 {
+#box1 {
     flex: 1 1 45%;
     margin-bottom: 20px;
 }
 
-#box3 {
-    flex: 1 1 100%;
-}
 
 #employment_education {
     display: flex;
